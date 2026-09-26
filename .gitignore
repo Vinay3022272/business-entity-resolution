@@ -218,8 +218,36 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+# OS generated files
+.DS_Store
+Thumbs.db
 
+# Project Scratch & Temp files
+scratch/
 
+# Data Directories & Datasets
+data/
+dataset/
+src/data/
 
+# Data Formats
+*.tsv
+*.csv
+*.parquet
+*.feather
+*.jsonl
 
-dataset
+# Generated Data Samples
+sample_500_matches.html
+sample_500_matches.json
+
+# Model Weights, Checkpoints & Outputs
+*.pt
+*.pth
+*.bin
+models/
+checkpoints/
+src/checkpoints/
+two_tower_model/
+*.zip
+*.tar.gz
