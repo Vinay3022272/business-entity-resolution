@@ -251,3 +251,14 @@ src/checkpoints/
 two_tower_model/
 *.zip
 *.tar.gz
+# Reranker Outputs, Models & Features
+outputs/
+src/Reranker/outputs/
+preprocessed_data/
+src/Reranker/preprocessed_data/
+lgbm_reranker/
+src/Reranker/lgbm_reranker/
+*.joblib
+*.cbm
+*.txt
+*.png
